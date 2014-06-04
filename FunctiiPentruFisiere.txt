@@ -1,0 +1,20 @@
+seekp
+seekg
+tellp
+tellg
+
+
+p- out
+
+g in
+
+
+seek -sets
+
+tell - tells
+
+
+
+
+
+http://www.icce.rug.nl/documents/cplusplus/cplusplus06.html#FSTREAM

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1394396711 source:c:\users\mihnea\desktop\c++\spanzuratoarea\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1399227600 source:c:\users\mihnea\desktop\programare\c++\spanzuratoarea\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+
