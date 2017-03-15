@@ -225,11 +225,12 @@ void adauga_mai_multe_cuvinte_in_dictionar_alfa(int numardecuvitnedeadaugat)
         lungimecuvantnou=strlen(cuvantnou);
         for(i=0;i<lungimecuvantnou;i++)
             cuvantnou[i]=transformare_in_majuscula(cuvantnou[i]);
-        if(cuvantnou!="stop")
+        if(strncmp(cuvantnou, "stop", 5) != 0) // 5 = lungimea stringului stop, cu tot cu caracterul NULL
             listacuvintelordindictionar.push_back(cuvantnou);
         numardecuvitnedeadaugat--;
         contor++;
-    }while(numardecuvitnedeadaugat>0 && cuvantnou!="stop");
+    }while(numardecuvitnedeadaugat>0 && strncmp(cuvantnou, "stop", 5) != 0); // 5 = lungimea stringului stop, cu tot cu caracterul NULL
+
 
     listacuvintelordindictionar.sort();
     fisierdictionar.clear();
